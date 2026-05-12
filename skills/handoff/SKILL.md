@@ -1,6 +1,6 @@
 ---
 name: handoff
-description: Compact the current conversation into a transferable document for a fresh agent session. Use when context is getting heavy, a project phase is complete, or the user is about to start a new phase of work. Trigger phrases: "handoff", "new session", "context is getting big", "wrap this up", "start fresh".
+description: 'Compact the current conversation into a transferable document for a fresh agent session. Use when context is getting heavy, a project phase is complete, or the user is about to start a new phase of work. Trigger phrases: "handoff", "new session", "context is getting big", "wrap this up", "start fresh".'
 argument-hint: "What will the next session focus on?"
 ---
 

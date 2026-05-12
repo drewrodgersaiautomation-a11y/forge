@@ -1,6 +1,6 @@
 ---
 name: investigate
-description: Search before building. Run a 3-layer knowledge check before implementing anything non-trivial. Use when the user is about to build something that involves unfamiliar patterns, infrastructure choices, library decisions, or any question of "how should we do this?". Trigger phrases: "how should I", "what's the best way to", "should I use", "investigate", "research".
+description: 'Search before building. Run a 3-layer knowledge check before implementing anything non-trivial. Use when the user is about to build something that involves unfamiliar patterns, infrastructure choices, library decisions, or any question of "how should we do this?". Trigger phrases: "how should I", "what''s the best way to", "should I use", "investigate", "research".'
 ---
 
 # Investigate

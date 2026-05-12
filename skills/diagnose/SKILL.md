@@ -1,6 +1,6 @@
 ---
 name: diagnose
-description: Structured debugging with hypothesis-first reasoning and human in the loop. Use when the user is debugging a bug, something is not working, tests are failing unexpectedly, or behavior is wrong. Do not use for building new features. Trigger phrases: "this is broken", "something is wrong", "debug this", "figure out why", "diagnose".
+description: 'Structured debugging with hypothesis-first reasoning and human in the loop. Use when the user is debugging a bug, something is not working, tests are failing unexpectedly, or behavior is wrong. Do not use for building new features. Trigger phrases: "this is broken", "something is wrong", "debug this", "figure out why", "diagnose".'
 ---
 
 # Diagnose
