@@ -16,20 +16,22 @@ The problem with AI-generated code is not that the agent is unintelligent — it
 
 ## What's inside
 
-Ten slash commands and an ethos preamble that loads at every session start.
+Twelve slash commands and an ethos preamble that loads at every session start.
 
 | Skill | What it does |
 |---|---|
 | `/init-project` | Set up a new repo with domain glossary (`CONTEXT.md`), architecture decision records, local issue tracker, and git guardrails |
+| `/grill` | Targeted clarification session before building — max 30 questions, only what would change the design |
 | `/plan` | Turn an idea into a PRD and issue breakdown before writing any code |
+| `/investigate` | 3-layer knowledge check before building anything non-trivial |
 | `/tdd` | Red-green-refactor with vertical slices. Tests verify behavior, not implementation |
 | `/architecture` | Find shallow modules and propose concrete deepening refactors |
-| `/investigate` | 3-layer knowledge check before building anything non-trivial |
+| `/setup-quality-gates` | Install automated linting, formatting, type checking, and test hooks (Node, Python, Go, Rust) |
 | `/review` | Multi-specialist analysis: security, performance, maintainability, API contracts, test coverage |
+| `/ship` | Final pre-merge checklist — nothing ships with shortcuts left open |
 | `/handoff` | Compact the session into a transfer document for a fresh agent |
 | `/zoom-out` | Get a module map of unfamiliar code using the project's domain vocabulary |
 | `/diagnose` | Hypothesis-first debugging with human in the loop |
-| `/ship` | Final pre-merge checklist — nothing ships with shortcuts left open |
 
 The `CLAUDE.md` / `AGENTS.md` preamble encodes five principles that apply to every session:
 
@@ -107,8 +109,10 @@ Five-specialist review, then the pre-merge checklist. Nothing ships with shortcu
 ```
 New project
   └─ /init-project              (fresh tab)
+  └─ /setup-quality-gates       (automated commit hooks)
 
 New feature
+  └─ /grill                     (clarify before speccing)
   └─ /investigate               (research before building)
   └─ /plan                      (spec before code)
   └─ /tdd                       (build with tests)
