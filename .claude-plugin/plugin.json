@@ -21,16 +21,16 @@
   ],
   "skills": [
     "./skills/init-project",
+    "./skills/grill",
     "./skills/plan",
+    "./skills/investigate",
     "./skills/tdd",
     "./skills/architecture",
-    "./skills/investigate",
+    "./skills/setup-quality-gates",
     "./skills/review",
+    "./skills/ship",
     "./skills/handoff",
     "./skills/zoom-out",
-    "./skills/diagnose",
-    "./skills/ship",
-    "./skills/grill",
-    "./skills/setup-quality-gates"
+    "./skills/diagnose"
   ]
 }
