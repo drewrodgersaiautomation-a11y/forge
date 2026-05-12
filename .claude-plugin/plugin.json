@@ -4,10 +4,10 @@
   "description": "An opinionated engineering methodology for AI coding agents. Enforces TDD, deep module architecture, ubiquitous domain language, and clean context handoffs across every project.",
   "author": {
     "name": "Drew Rodgers",
-    "email": "drewrodgerspga@gmail.com"
+    "email": "drewrodgers.aiautomation@gmail.com"
   },
-  "repository": "https://github.com/drewrodgerspga/forge",
-  "homepage": "https://github.com/drewrodgerspga/forge",
+  "repository": "https://github.com/drewrodgersaiautomation-a11y/forge",
+  "homepage": "https://github.com/drewrodgersaiautomation-a11y/forge",
   "license": "MIT",
   "keywords": [
     "engineering",

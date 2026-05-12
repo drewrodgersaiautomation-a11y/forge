@@ -46,7 +46,7 @@ The `CLAUDE.md` / `AGENTS.md` preamble encodes five principles that apply to eve
 ### Claude Code
 
 ```bash
-npx skills@latest add drewrodgerspga/forge
+npx skills@latest add drewrodgersaiautomation-a11y/forge
 ```
 
 Or manually: clone this repo and add the path to your Claude Code config.
@@ -63,7 +63,7 @@ Copy `CLAUDE.md` to your project root. Most agents with system prompt injection 
 
 ### Cowork
 
-Install directly as a plugin: download `forge.plugin` from the [releases page](https://github.com/drewrodgerspga/forge/releases) and drag it into Cowork.
+Install directly as a plugin: download `forge.plugin` from the [releases page](https://github.com/drewrodgersaiautomation-a11y/forge/releases) and drag it into Cowork.
 
 ---
 
