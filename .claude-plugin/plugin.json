@@ -1,6 +1,6 @@
 {
   "name": "forge",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An opinionated engineering methodology for AI coding agents. Enforces TDD, deep module architecture, ubiquitous domain language, and clean context handoffs across every project.",
   "author": {
     "name": "Drew Rodgers",
@@ -29,6 +29,8 @@
     "./skills/handoff",
     "./skills/zoom-out",
     "./skills/diagnose",
-    "./skills/ship"
+    "./skills/ship",
+    "./skills/grill",
+    "./skills/setup-quality-gates"
   ]
 }
